@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 230" width="600" height="230" role="img" aria-label="Little Monkey — Open-source local Agent OS. Run autonomous AI agents on your own machine, with real tools."><title>Little Monkey — Open-source local Agent OS. Run autonomous AI agents on your own machine, with real tools.</title><defs>
+<linearGradient id="border" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0">
+<stop offset="0" stop-color="#ff646c"/><stop offset=".35" stop-color="#ff646c" stop-opacity="0"/><stop offset=".65" stop-color="#ffab8f" stop-opacity="0"/><stop offset="1" stop-color="#ffab8f"/>
+<animateTransform attributeName="gradientTransform" type="rotate" from="0 300 115" to="360 300 115" dur="10s" repeatCount="indefinite"/>
+</linearGradient>
+<linearGradient id="accent" x1="0" x2="1"><stop offset="0" stop-color="#ff646c"/><stop offset="1" stop-color="#ffab8f"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#ff646c" stop-opacity=".26"/><stop offset="1" stop-color="#ff646c" stop-opacity="0"/></radialGradient>
+<linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="frame"><rect x="1" y="1" width="598" height="228" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#frame)"><rect width="600" height="230" fill="#0b1020"/>
+<circle cx="540" cy="20" r="190" fill="url(#glow)"><animate attributeName="cx" values="540;460;540" dur="9s" repeatCount="indefinite"/></circle>
+<rect x="-260" y="-40" width="140" height="310" fill="url(#shine)" transform="skewX(-20)"><animate attributeName="x" values="-260;-260;860" keyTimes="0;.55;1" dur="7s" repeatCount="indefinite"/></rect></g>
+<rect x="1" y="1" width="598" height="228" rx="18" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+<rect x="1" y="1" width="598" height="228" rx="18" fill="none" stroke="url(#border)" stroke-width="1.5"/>
+<rect x="32" y="30" width="68" height="68" rx="16" fill="#ff646c" fill-opacity=".1" stroke="#ff646c" stroke-opacity=".35"/>
+<g transform="translate(32 30)"><defs><linearGradient id="lm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff646c"/><stop offset="1" stop-color="#d83143"/></linearGradient>
+<clipPath id="tile"><rect width="68" height="68" rx="16"/></clipPath></defs>
+<g clip-path="url(#tile)"><rect width="68" height="68" fill="url(#lm)"/>
+<ellipse cx="34" cy="60" rx="16" ry="13" fill="#282d3c"/>
+<ellipse cx="27" cy="64.5" rx="4.5" ry="3" fill="#ffab8f"/><ellipse cx="41" cy="64.5" rx="4.5" ry="3" fill="#ffab8f"/>
+<g><animateTransform attributeName="transform" type="rotate" values="-5 34 48;5 34 48;-5 34 48" dur="4s" repeatCount="indefinite"/>
+<circle cx="15" cy="31" r="8.5" fill="#282d3c"/><circle cx="53" cy="31" r="8.5" fill="#282d3c"/>
+<circle cx="15" cy="31" r="5" fill="#ffab8f"/><circle cx="53" cy="31" r="5" fill="#ffab8f"/>
+<path d="M29 14C30 8 36 6 40 8C37 9 36 11 37 13Z" fill="#282d3c"/>
+<ellipse cx="34" cy="30" rx="18" ry="17" fill="#282d3c"/>
+<circle cx="28.5" cy="27.5" r="6.8" fill="#fbf7f5"/><circle cx="39.5" cy="27.5" r="6.8" fill="#fbf7f5"/>
+<ellipse cx="34" cy="37" rx="11.5" ry="8" fill="#fbf7f5"/>
+<ellipse cx="29" cy="28" rx="2.7" ry="3.2" fill="#1b1f30"><animate attributeName="ry" values="3.2;3.2;.3;3.2" keyTimes="0;.9;.95;1" dur="4s" repeatCount="indefinite"/></ellipse><circle cx="29.9" cy="26.8" r=".9" fill="#fff"><animate attributeName="opacity" values="1;1;0;1" keyTimes="0;.9;.95;1" dur="4s" repeatCount="indefinite"/></circle><ellipse cx="39" cy="28" rx="2.7" ry="3.2" fill="#1b1f30"><animate attributeName="ry" values="3.2;3.2;.3;3.2" keyTimes="0;.9;.95;1" dur="4s" repeatCount="indefinite"/></ellipse><circle cx="39.9" cy="26.8" r=".9" fill="#fff"><animate attributeName="opacity" values="1;1;0;1" keyTimes="0;.9;.95;1" dur="4s" repeatCount="indefinite"/></circle>
+<ellipse cx="34" cy="34" rx="2.8" ry="1.7" fill="#1b1f30"/>
+<path d="M29.5 38.5Q34 42.5 38.5 38.5" fill="none" stroke="#1b1f30" stroke-width="1.5" stroke-linecap="round"/></g></g></g>
+<text x="120" y="60" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="25" font-weight="700" fill="#f8fafc">Little Monkey</text>
+<text x="120.0" y="86.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="url(#accent)" textLength="129.6" lengthAdjust="spacing" >AGENT OS · RUST</text>
+<g transform="translate(548 34)"><animateTransform attributeName="transform" type="translate" values="548 34;552 30;548 34" dur="2.4s" repeatCount="indefinite"/>
+<path d="M2 16L16 2M6 2H16V12" fill="none" stroke="#ff646c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></g><text x="32" y="138" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15.5" fill="#94a3b8">Open-source local Agent OS. Run autonomous AI</text><text x="32" y="162" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15.5" fill="#94a3b8">agents on your own machine, with real tools.</text><rect x="32.0" y="180" width="54.8" height="28" rx="14" fill="#ff646c" fill-opacity=".08" stroke="#ff646c" stroke-opacity=".3"/><text x="45.0" y="198.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#cbd5e1" textLength="28.8" lengthAdjust="spacing" >Rust</text><rect x="94.8" y="180" width="62.0" height="28" rx="14" fill="#ff646c" fill-opacity=".08" stroke="#ff646c" stroke-opacity=".3"/><text x="107.8" y="198.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#cbd5e1" textLength="36.0" lengthAdjust="spacing" >Tauri</text><rect x="164.8" y="180" width="47.6" height="28" rx="14" fill="#ff646c" fill-opacity=".08" stroke="#ff646c" stroke-opacity=".3"/><text x="177.8" y="198.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#cbd5e1" textLength="21.6" lengthAdjust="spacing" >MCP</text><rect x="220.4" y="180" width="98.0" height="28" rx="14" fill="#ff646c" fill-opacity=".08" stroke="#ff646c" stroke-opacity=".3"/><text x="233.4" y="198.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#cbd5e1" textLength="72.0" lengthAdjust="spacing" >Local LLMs</text></svg>
